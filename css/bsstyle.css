@@ -1,0 +1,312 @@
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 200px;
+}
+body {
+    margin:0px;
+    padding: 0px;
+    font-family: 'Nunito', sans-serif;
+    background: linear-gradient(-45deg, #7a8a75, #B5BEB2, #7a8a75)
+    }
+
+    /* Typography CSS */
+.h1 {
+    font-size: 64px;
+    font-family: Nunito;
+    color: black;
+}
+.h2 {
+    font-family: Nunito Semi-bold 600;
+    font-size: 36px;
+    color: black;
+}
+.h3 {
+    font-family: Nunito Semi-bold 600;
+    font-size: 24px;
+    color: black;
+}
+.specialUse {
+    font-family: Nunito Black;
+    font-size: 18px;
+    color: black;
+}
+a:link {
+    color: white;
+    text-decoration: none;
+}
+a:visited {
+    color:white;
+    text-decoration: none;
+}
+
+/* Header CSS */
+header {
+    width: 100%;
+    height: 170px;
+    background-color: rgba(104, 103, 101, 0.98);
+    border-bottom: 8px solid white;
+    top: 0px;
+    right: 0px;
+    position:fixed;
+    z-index: 1;
+}
+    
+.name {
+    color: white;
+    display:flex;
+    justify-content: center;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.navBarBig {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.navItemBig {
+    color: white;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-right: 25px;
+    margin-left: 25px;
+    cursor: pointer;
+    margin-top:0px;
+    margin-bottom: 20px;
+}
+.spaceMaker {
+    width: 100%;
+    height: 250px;
+}
+.toTop {
+    font-family: Nunito Black;
+    font-size: 18px;
+    color: black;
+    padding: 5px 5px;
+    border-radius: 4px;
+    position: fixed;
+    bottom: -4px;
+    right: 10px;
+    border-top: 2px solid white;
+    border-right: 2px solid white;
+    border-left: 2px solid white;
+}
+#caseStudy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sageLogo {
+    width:min-content;
+    height: auto;
+}
+.csintrotext {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.groupNames {
+    font-family: Nunito Black;
+    font-size: 18;
+    color: black;
+}
+.navbar {
+    margin-bottom: 50px;
+    background-color:#B5BEB2 !important;
+    border: white solid 3px;
+}
+
+#aboutSage {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 15% 0%;
+    border: solid 3px white;
+}
+.sageSampleScreen {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
+}
+.asText {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.problem {
+    font-size:36px;
+    color: white;
+}
+.problemState {
+    font-family: Nunito Semi-bold 600;
+    font-size: 24px;
+    color: black
+}
+.solution {
+    font-size:36px;
+    color: white;
+}
+.solutionState {
+    font-family: Nunito Semi-bold 600;
+    font-size: 24px;
+    color: black 
+}
+.sectionHeader {
+    display:flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.wrapperQuant{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: row;
+}
+.graphImage {
+    display: inline-block;
+    width: 30%;
+}
+.quantBox {
+    display: inline-block;
+    width: 30%;  
+}
+.qtbText {
+    font-size: 24px;
+}
+.wrapperqual {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items:center;
+}
+.qtbTitle {
+    display: flex;
+    justify-content: center;
+    font-family: Nunito Semi-bold 600;
+    font-size: 36px;
+    color: black;
+}
+.qtbText {
+    font-family: Nunito Semi-bold 600;
+    font-size: 24px;
+    color: black;
+}
+.qualBox {
+    display: inline-block;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sampleQuestionBox {
+    display: inline-block;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.qlbTitle {
+    display: flex;
+    justify-content: center;
+    font-family: Nunito Semi-bold 600;
+    font-size: 36px;
+    color: black;
+}
+.qlbText {
+    font-size: 24px;
+    justify-items: left;
+}
+.sqbTitle {
+    display: flex;
+    justify-content: center;
+    font-family: Nunito Semi-bold 600;
+    font-size: 36px;
+    color: black;
+}
+.sqbtext {
+    font-family: Nunito Semi-bold 600;
+    font-size: 24px;
+    color: black; 
+}
+
+.graphText {
+    font-size: 24px;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.flowImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: auto;
+    margin-bottom: 50px;
+}
+.wrapperproto {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+.prototypeLeft {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 3px white;
+}
+.prototypeRight {
+    font-size: 30px;
+    display: inline-block;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.takeAwayTexts {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    font-size: 24px;
+}
+.sageLogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+}
+/* Footer CSS */
+footer {
+    margin-top: 50px;
+    border-top: 8px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: baseline; 
+}
+.emailWhite {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 20px;
+    margin-right: 25px;
+    margin-left: 25px;
+    cursor: pointer;
+}
+.liWhite {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 20px;
+    margin-right: 25px;
+    margin-left: 25px;
+    cursor: pointer;
+}
+.copyright {
+    margin-top: 10px;
+    margin-bottom: 0;
+    display:flex;
+    justify-content: center;
+}

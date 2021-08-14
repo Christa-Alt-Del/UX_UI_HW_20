@@ -26,85 +26,110 @@
   </head>
   <body>
     <header class="headerNav">
-        <p class="name h1">Christa Rodriguez</p>
-        <div class="navBar">
-            <p class="navItem h2"><a href="#heroGrid" class="slideSection">About</a></p>
-            <p class="navItem h2"><a href="#skillsContainer" class="slideSection">Skills</a></p>
-            <p class="navItem h2"><a href="#caseStudyContainer" class="slideSection">Work</a></p>
+        <a href="index.html"><p class="name h1">Christa Rodriguez</p></a>
+        <div class="navBarBig">
+            <p class="navItemBig h2"><a href="index.html#heroGrid" class="slideSection">About</a></p>
+            <p class="navItemBig h2"><a href="index.html#skillsContainer" class="slideSection">Skills</a></p>
+            <p class="navItemBig h2"><a href="index.html#caseStudyContainer" class="slideSection">Work</a></p>
         </div>
     </header>
     <div class="spaceMaker"></div>
+    <a href="#caseStudy" class="toTop">Back to Top</a>
     <section id="caseStudy">
-        <img src="../UX_UI_HW_20/images/SageLogo.png" alt="Sage: A Mobile App for Inspiring Gardeners">
-        <h3 class="groupNames">UX Reserch and Design: Nina van Vliet, Christa Rodriguez, Matthew Plumstead</h3>
-        <h3 class=projectOrigin>Sage was created as a group project in the University of Minnisota UX/UI Bootcamp. We were given roughly 3 weeks to go from concept to mid fidelity prototype. </h3>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Development</a>
+        <img src="../UX_UI_HW_20/images/SageLogo.png" class="sageLogo" alt="Sage: A Mobile App for Inspiring Gardeners">
+        <div class="csintrotext">
+          <p class="groupNames">UX Reserch and Design: Nina van Vliet, Christa Rodriguez, Matthew Plumstead</p>
+          <h3 class="projectOrigin">Sage was created as a group project in the University of Minnisota UX/UI Bootcamp. We were given roughly 3 weeks to go from concept to mid fidelity prototype.</h3>
+        </div>
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Development Stages</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
               <div class="navbar-nav">
-                <a class="nav-item nav-link active" href="#">About <span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link" href="#">Research</a>
-                <a class="nav-item nav-link" href="#">Definition</a>
-                <a class="nav-item nav-link" href="#">Prototype</a>
-                <a class="nav-item nav-link" href="#">Take Aways</a>
+                <a class="nav-item nav-link" href="#aboutSage">Problem to be Solved <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="#research">Research</a>
+                <a class="nav-item nav-link" href="#definition">Definition</a>
+                <a class="nav-item nav-link" href="#prototype">Prototype</a>
+                <a class="nav-item nav-link" href="#takeAways">Take Aways</a>
               </div>
             </div>
           </nav>
-          <div class="aboutSage">
+          <div id="aboutSage">
               <img class="sageSampleScreen" src="../UX_UI_HW_20/images/Sage1.PNG" alt="A Sample Sage Screen">
-              <p class="problem">Problem:</p>
-              <p class="problemState">Gardeners have an overwhelming number of resources for information, wich is time consuming and disorganized.</p>
-              <p class="solution">Solution:</p>
-              <p class="solutionState">We created a mobile app that takes into acccount our user’s unique circumstances an resents them with information and recommendations in one place.</p>
-          </div>
+              <div class="asText">
+                <p class="problem">Problem:</p>
+                <p class="problemState">Gardeners have an overwhelming number of resources for information, wich is time consuming and disorganized.</p>
+                <p class="solution">Solution:</p>
+                <p class="solutionState">We created a mobile app that takes into acccount our user’s unique circumstances an resents them with information and recommendations in one place.</p>
+              </div>
+              </div>
     </section>
     <section id="research">
-        <h1>1. Research</h1>
-        <div class="card" style="width: 18rem;">
-            <img src="../UX_UI_HW_20/images/Graph.PNG" class="card-img-top" alt="Bar Graph of Information Sources Utilized by Gardeners">
-            <div class="card-body">
-            </div>
+        <h1 class="sectionHeader">1. Research</h1>
+        <div class=wrapperQuant>
+          <img src="../UX_UI_HW_20/images/Graph.PNG" class="graphImage" alt="Bar Graph of Information Sources Utilized by Gardeners">
+          <div class="quantBox">
+            <p class="qtbTitle">Quantitative</p>
+            <p class="qtbText">Google surveys are a great way to narrow down information and target user pain points. This is how we identified that gardeners have a confusing amout of sources. </p>
           </div>
-        <div class=card-group>
-        <div class="card" style="width: 18rem;">
-            <div class="card-body">
-                <h5 class="card-title">Qualitative</h5>
-              <p class="card-texta">I took charge of qualitative research. My goals were to:</p>
-                <p class="card-textb">1.	Ask questions that let users tell me their stories.</p>
-                <p class="card-textc">2.	Let these stories give me authentic unique insights.</p>
-                
-                <p class="card-textd">We learned gardeners trust friends and neighbors for the most relevant information</p>
-                
-                <p class="card-texte">We decided to make an app that recreated a neighbor telling you how to grow the most beautiful flowers in your garden.</p>
-            </div>
+        </div>
+        <div class="wrapperqual">
+          <div class="qualBox">
+            <p class="qlbTitle">Qualitative</p>
+            <p class="qlbText">I took charge of qualitative research. My goals were to:</p>
+            <p class="qlbText">1. Ask questions that let users tell me their stories.</p>
+            <p class="qlbText">2. Let these stories give me authentic unique insights</p>
+            <p class="qlbText">We learned gardeners trust friends and neighbors for the most relevant information.</p>
+            <p class="qlbText">We decided to make an app that recreated a neighbor telling you how to grow the most beautiful flowers in your garden.</p>
           </div>
-          <div class="card" style="width: 18rem;">
-            <div class="card-body">
-              <h5 class="card-title">Quantitative</h5>
-              <p class="card-text">Google surveys are a great way to narrow down information and target user pain points. This is how we identified that gardeners have a confusing amout of sources.</p>
-            </div>
-          </div>
-          <div class="card" style="width: 18rem;">
-            <div class="card-body">
-              <h5 class="card-title">Sample Questions</h5>
-              <p class="card-textf">What feelings do you associate with Gardening?</p>
-              <p class="card-textg">What inspires your gardening decisions?</p>
-              <p class="card-texth">What things make you feel limited when gardening?</p>
-              <p class="card-texti">What are you processes like when you want to start planting?</p>
-              
-            </div>
+          <div class="sampleQuestionBox">
+            <p class="sqbTitle">Sample Questions</p>
+            <p class="sqbtext">What feelings do you associate with Gardening?</p>
+            <p class="sqbtext">What inspires your gardening decisions?</p>
+            <p class="sqbtext">What things make you feel limited when gardening?</p>
+            <p class="sqbtext">What are you processes like when you want to start planting?</p>
           </div>
         </div>
     </section>
     <section id="definition">
-        <h1>2. Definition</h1>
-        
+      <h1 class="sectionHeader">2. Definition</h1>
+        <p class="graphText">Sage is unique because it offers “Sage Advice” when you select plants you want to grow. It can make suggestions based off of color, companion planting, size, etc. </p>
+        <p class="graphText">We created a user flow that shows exactly how and when Sage will offer users advice.</p>
+        <img src="../UX_UI_HW_20/images/Userflow.PNG" class="flowImage" alt="A Sample User Flow for Selecting Plants Through Sage">
     </section>
-    <h1>Hello, world!</h1>
 
+    <section id="prototype">
+      <h1 class="sectionHeader">3. Prototype</h1>
+      <div class="wrapperproto">
+        <div class="prototypeLeft">
+          <img src="../UX_UI_HW_20/images/SageDemo.gif" alt="A Demonstration of Sage">
+        </div>
+        <div class="prototypeRight">
+          <p class="rightOne">Sage became a soothing app to play with and a source of inspiration. We included a basic care instructions, built in reminders for watering and fertilizing. </p>
+          <p class="rightTwo">Given more time we would build in a social media sharing platform for higher engagement and inspiration for users.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id=takeAways>
+      <h1 class="sectionHeader">4. Take Aways</h1>
+      <div class="takeAwayTexts">
+        <p class="takeAwayTop">Properly scripted interviews are not only fun, but highly productive. Users’ insights can open paths you couldn’t find on your own.</p>
+        <p class="takeAwayMid">I can fill a project management role. I enjoy encouraging creativity but know when to stop scope creep.</p>
+        <p class="takeAwayBottom">Having teammates you can trust to do the work is a relief that frees up energy that can be directed back into the work. I was lucky to work with fantastic people. Thanks Mac and Nina!</p>
+      </div>
+    </section>
+
+    <img src="images/Sage-Logo-whte 1.png" class="sageLogo" alt="Sage Logo">
+    <footer>
+      <div class="emailWhite"><img src="../UX_UI_HW_20/images/EmailWhite 1.png" alt="Email Icon"></div>
+      <div class="liWhite"><a href="https://www.linkedin.com/in/christa-rodriguez-a75178204"><img src="../UX_UI_HW_20/images/LIWhite 1.png" alt="LinkedIn Icon"></a></div>
+  </footer>
+  <section class="subFoot">
+    <div class="copyright"><img src="../UX_UI_HW_20/images/Copyright.png" alt="Copy"></div>
+  </section>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
